@@ -12,8 +12,6 @@ html {
     margin: 0;
 }
 
-
-
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -27,19 +25,9 @@ html {
     color: #faea10; /* Color amarillo personalizado */
   }
 
-  /*body {
-    background-color: #005de9;
-  }*/
-
-
   body {
-    background: linear-gradient(to bottom, #ffc107, #014fc4 45%); /* Gradiente lineal horizontal entre amarillo y azul */
+    background: linear-gradient(to bottom, #ffc107, #0135c4 45%); /* Gradiente lineal horizontal entre amarillo y azul */
     margin: 0;
     padding: 0;
   }
-  .navbar-custom {
-    background-color: transparent !important; /* Hacemos el fondo de la barra de navegación transparente */
-  }
-  .custom-navbar-text {
-    color: #fff; /* Texto en blanco para mayor contraste */
-  }
+  
