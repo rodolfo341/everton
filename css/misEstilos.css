@@ -1,15 +1,18 @@
 html {
     height: 100%;
 }
-body {
-    background-image: linear-gradient(#f8f404, rgb(39, 8, 211));
-}
 .bg-azul {
     background-color: rgb(4, 4, 114);
 }
 .logo {
-    width: 50px;
+    width: 30px;
 }
+.navbar-brand.custom-navbar-text{
+    padding: 0;
+    margin: 0;
+}
+
+
 
 .navbar-nav.navbar-center {
     position: absolute;
@@ -22,4 +25,21 @@ body {
   }
   .custom-navbar-text {
     color: #faea10; /* Color amarillo personalizado */
+  }
+
+  /*body {
+    background-color: #005de9;
+  }*/
+
+
+  body {
+    background: linear-gradient(to bottom, #ffc107, #014fc4 45%); /* Gradiente lineal horizontal entre amarillo y azul */
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-custom {
+    background-color: transparent !important; /* Hacemos el fondo de la barra de navegación transparente */
+  }
+  .custom-navbar-text {
+    color: #fff; /* Texto en blanco para mayor contraste */
   }
