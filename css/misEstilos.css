@@ -1,0 +1,18 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: linear-gradient(#f8f404, rgb(39, 8, 211));
+}
+.bg-azul {
+    background-color: rgb(4, 4, 114);
+}
+.logo {
+    width: 50px;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
